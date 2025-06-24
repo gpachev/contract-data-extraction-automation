@@ -1,0 +1,34 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Use Python 3.11+ for all source code in apps and packages.
+- Enforce strict typing using type hints throughout all function parameters and return values (mypy, pyright, or pytype can assist).
+- Define public APIs with abstract base classes or Protocol objects; use TypedDict or dataclasses for internal data structures.
+- Avoid using Any—prefer object, Union, or custom types with appropriate type checks.
+- Organize types in a dedicated types/ package or as separate *_types.py modules per domain.
+- Use Enum or Literal from typing for sets of fixed values.
+- Prefer explicit imports and named exports using __all__ where appropriate.
+- Maintain consistent naming conventions:
+- PascalCase for classes and Enums
+- snake_case for variables, functions, and file names
+- UPPER_CASE for constants
+- Keep modules and functions small, with single-responsibility focus.
+- Document complex types, functions, and classes with docstrings in reStructuredText or Google style.
+- Use Python's built-in typing utilities (e.g., Optional, Union, Callable, TypeVar, Generic) and libraries like pydantic for data validation.
+- Always develop inside a Python virtual environment (venv).
+- Name virtual environments clearly (e.g., .env/) and include the directory in .gitignore.
+- Automate environment setup with a requirements.txt.
+- Document environment activation and setup steps in a README.md.
+- Prefer tools like venv and pip for managing environment activation or multi-version testing.
+- Never pollute the global Python environment — treat virtual environments as disposable and reproducible.
+
+
+
+

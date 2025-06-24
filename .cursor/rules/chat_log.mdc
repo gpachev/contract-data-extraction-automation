@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+
+-Log all my prompts in logs/chat_log.md in format "[used_model]\n[prompt]\n\n"
