@@ -50,7 +50,7 @@ The script will operate on a local file system, traversing a specified input fol
 #### 3.3. Output Generation
 
 * **Output Format:** Single CSV file.
-* **File Naming Convention:** `YYYY-MM-DD-contract_intelligence.csv` (based on the script's execution date).
+* **File Naming Convention:** `YYYY-MM-DD-HHMMSS-contract_intelligence.csv` (based on the script's execution date).
 * **CSV Column Headers & Order:** The CSV file will have the exact header names and order as follows:
     1.  Own Company Name
     2.  Subcontractor Name

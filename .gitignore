@@ -107,3 +107,7 @@ poetry.lock
 
 # pip-tools
 requirements*.txt
+
+# .env files
+.env
+*.csv

@@ -28,7 +28,7 @@ alwaysApply: true
 - Document environment activation and setup steps in a README.md.
 - Prefer tools like venv and pip for managing environment activation or multi-version testing.
 - Never pollute the global Python environment — treat virtual environments as disposable and reproducible.
-
+- Add a __init__.py file in every folder that contains .py files
 
 
 
