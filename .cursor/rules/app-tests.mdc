@@ -1,5 +1,11 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: false
 ---
+# App Test Organization Rule
+
+For each app (for example: `apps/backend`), create a nested folder named `tests` inside the app directory. All tests for the given app must be placed in its `tests` subfolder (e.g., `apps/backend/tests`).
+
+This ensures a clear separation of application code and tests, and makes test discovery and maintenance easier.
+
